@@ -16,5 +16,7 @@ class String
 
   def count_sentences
     self.split(/[.?!] /).count
+    # self.split(/[.?!]+/).count
+    # add space or + before closing /
   end
 end
